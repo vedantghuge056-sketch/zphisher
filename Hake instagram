@@ -1,0 +1,6 @@
+git clone --depth=1 https://github.com/htr-tech/zphisher.git$ cd zphisher
+$ bash zphisher.sh$ pkg install tur-repo
+$ pkg install zphisher
+$ zphisherapt install <your path to deb file>$ dpkg -i <your path to deb file>
+$ apt install -fdocker pull htrtech/zphisherdocker pull ghcr.io/htr-tech/zphisher:latest$ curl -LO https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh
+$ bash run-docker.shdocker run --rm -ti htrtech/zphisher
